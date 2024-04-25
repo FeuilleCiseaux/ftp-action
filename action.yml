@@ -1,4 +1,4 @@
-name: 'ftp-upload-action'
+name: 'ftp-download-action'
 author: 'Sebastian Popp <ftp-action@sebastianpopp.com> modified by FeuilleCiseaux'
 description: 'Automate downlaoding files from a FTP server using this GitHub action.'
 inputs:
