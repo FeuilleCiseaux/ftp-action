@@ -5,7 +5,7 @@ Automate copying your files via ftp using this GitHub action.
 ## Example usage
 
 ```
-name: Deploy via ftp
+name: Download via ftp
 on: push
 jobs:
   deploy:
@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Upload ftp
-      uses: sebastianpopp/ftp-action@releases/v2
+      uses: FeuilleCiseaux/ftp-action@releases/v2
       with:
         host: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
